@@ -23,15 +23,15 @@ export default function HeroSection({ name, title, description, imageUrl, onView
         </div>
         
         <div className="space-y-4 fade-in">
-          <h1 className="text-6xl md:text-7xl font-bold font-heading gradient-text" data-testid="text-name">
+          <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold font-heading gradient-text break-words px-4" data-testid="text-name">
             {name}
           </h1>
-          <h2 className="text-2xl md:text-3xl font-medium text-muted-foreground" data-testid="text-title">
+          <h2 className="text-xl sm:text-2xl md:text-3xl font-medium text-muted-foreground" data-testid="text-title">
             {title}
           </h2>
         </div>
 
-        <p className="text-lg md:text-xl text-foreground/80 max-w-2xl mx-auto leading-relaxed" data-testid="text-description">
+        <p className="text-base sm:text-lg md:text-xl text-foreground/80 max-w-2xl mx-auto leading-relaxed px-4" data-testid="text-description">
           {description}
         </p>
 

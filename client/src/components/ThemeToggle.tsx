@@ -10,7 +10,7 @@ export default function ThemeToggle() {
       variant="outline"
       size="icon"
       onClick={toggleTheme}
-      className="fixed top-6 right-6 z-50 rounded-full w-12 h-12"
+      className="fixed top-4 right-4 z-50 rounded-full w-12 h-12 shadow-lg border-2"
       data-testid="button-theme-toggle"
     >
       {theme === "light" ? (
