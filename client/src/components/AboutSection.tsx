@@ -11,7 +11,7 @@ export default function AboutSection({ profile }: AboutSectionProps) {
     <section className="py-24 px-6 bg-background" id="about">
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-16 space-y-4">
-          <h2 className="text-4xl md:text-5xl font-bold font-heading text-foreground" data-testid="text-about-title">
+          <h2 className="text-4xl md:text-5xl font-bold font-heading gradient-text" data-testid="text-about-title">
             À Propos de Moi
           </h2>
         </div>

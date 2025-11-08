@@ -32,7 +32,7 @@ export default function ProjectsSection({ projects }: ProjectsSectionProps) {
     <section className="py-24 px-6 bg-muted/30" id="projects">
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-12 space-y-4">
-          <h2 className="text-4xl md:text-5xl font-bold font-heading text-foreground" data-testid="text-projects-title">
+          <h2 className="text-4xl md:text-5xl font-bold font-heading gradient-text" data-testid="text-projects-title">
             Projets en Vedette
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">

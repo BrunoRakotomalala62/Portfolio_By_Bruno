@@ -10,7 +10,7 @@ export default function SkillsSection({ skills }: SkillsSectionProps) {
     <section className="py-24 px-6 bg-background" id="skills">
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-16 space-y-4">
-          <h2 className="text-4xl md:text-5xl font-bold font-heading text-foreground" data-testid="text-skills-title">
+          <h2 className="text-4xl md:text-5xl font-bold font-heading gradient-text" data-testid="text-skills-title">
             Mes Compétences
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">

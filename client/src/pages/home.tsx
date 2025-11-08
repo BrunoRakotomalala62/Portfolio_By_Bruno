@@ -3,6 +3,7 @@ import SkillsSection from "@/components/SkillsSection";
 import ProjectsSection from "@/components/ProjectsSection";
 import AboutSection from "@/components/AboutSection";
 import Footer from "@/components/Footer";
+import ThemeToggle from "@/components/ThemeToggle";
 
 import profileImage from '@assets/generated_images/Professional_developer_headshot_portrait_415223e3.png';
 import aiWebImage from '@assets/generated_images/AI_chatbot_web_interface_1e37b208.png';
@@ -157,6 +158,7 @@ export default function Home() {
 
   return (
     <div className="min-h-screen">
+      <ThemeToggle />
       <HeroSection
         name={profile.name}
         title={profile.title}
