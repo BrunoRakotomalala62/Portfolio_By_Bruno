@@ -103,7 +103,7 @@ export default function Home() {
       description: 'Un chatbot web simple et interactif.',
       technologies: ['HTML', 'CSS', 'JavaScript', 'AI Tools'],
       imageUrl: aiWebImage,
-      liveUrl: '#',
+      liveUrl: 'https://p-six-mu.vercel.app/',
     },
     {
       id: '2',
